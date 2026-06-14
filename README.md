@@ -115,7 +115,7 @@ DIVIDE(
 > Click the thumbnail above to watch the full Shield Insurance 
 > Dashboard presentation and data story walkthrough.
 
-[![Shield Insurance Dashboard Walkthrough](https://www.youtube.com/watch?v=6IxeA9Ky8Wk&t=12s)]([https://www.youtube.com/watch?v=6IxeA9Ky8Wk&t=12s](https://www.youtube.com/watch?v=6IxeA9Ky8Wk&t=12s))
+[![Shield Insurance Dashboard Walkthrough](https://www.youtube.com/watch?v=6IxeA9Ky8Wk&t=12s)]
 
 ## 🛠️ Tools & Technologies
 
@@ -159,11 +159,11 @@ High-level KPI summary for leadership — total revenue, customer count, top per
 
 ### Age Group Analysis
 Customer and revenue breakdown by age — 31 to 40 is the top revenue engine, 65+ carries the highest settlement risk, and 18 to 24 is the biggest long-term growth opportunity.
-![Age Group Dashboard]([Screenshots/age_group_analysis.png](https://github.com/Revathi-jaisankar/Shield-Insurance-Analysis/blob/main/img/Age_group_Analysis_Page.png))
+![Age Group Dashboard](https://github.com/Revathi-jaisankar/Shield-Insurance-Analysis/blob/main/img/Age_group_Analysis_Page.png)
 
 ### Sales Mode Analysis
 Deep dive into how customers are buying — Offline Agent leads at 55% of customers and dominates revenue, while Online channels are growing in volume.
-![Sales Mode Dashboard]([Screenshots/sales_mode_analysis.png](https://github.com/Revathi-jaisankar/Shield-Insurance-Analysis/blob/main/img/Sales_Mode_Analysis_Page.png))
+![Sales Mode Dashboard](https://github.com/Revathi-jaisankar/Shield-Insurance-Analysis/blob/main/img/Sales_Mode_Analysis_Page.png)
 
 ---
 
