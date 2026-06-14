@@ -81,11 +81,11 @@ DIVIDE(
 ```
 ## 📊 Key Metrics
 
-| Total Policies Sold | 27,000 |
-| Total Premium Paid | ₹989.25M |
-| Top Age Group | 31–40 (₹356.03M Revenue) |
-| Top Sales Channel | Offline Agent (55%) |
-| Analysis Period | Nov 2022 — Apr 2023 |
+- Total Policies Sold - 27,000 
+- Total Premium Paid - ₹989.25M 
+- Top Age Group - 31–40 (₹356.03M Revenue) 
+- Top Sales Channel - Offline Agent (55%) 
+- Analysis Period - Nov 2022 — Apr 2023 
 
 ---
 ## 💡 Key Insights
@@ -109,6 +109,7 @@ DIVIDE(
 
 **Geography**
 - Top 5 cities drive majority of revenue — classic 80/20 concentration
+- 
 ---
 ## 🎬 Video Presentation
 > Click the thumbnail above to watch the full Shield Insurance 
@@ -130,8 +131,6 @@ DIVIDE(
 
 ## 📁 Project Structure
 Shield-Insurance-Dashboard/
-
-
 
 ├── 📊 ShieldInsurance.pbix        # Power BI file
 
@@ -156,7 +155,7 @@ Shield-Insurance-Dashboard/
 
 ### Executives Analysis
 High-level KPI summary for leadership — total revenue, customer count, top performing age group, and monthly growth trend at a glance.
-![Age Group Dashboard]([Screenshots/age_group_analysis.png](https://github.com/Revathi-jaisankar/Shield-Insurance-Analysis/blob/main/img/Executive_page.png))
+![Age Group Dashboard](https://raw.githubusercontent.com/Revathi-jaisankar/Shield-Insurance-Analysis/main/img/Executive_page.png)
 
 ### Age Group Analysis
 Customer and revenue breakdown by age — 31 to 40 is the top revenue engine, 65+ carries the highest settlement risk, and 18 to 24 is the biggest long-term growth opportunity.
