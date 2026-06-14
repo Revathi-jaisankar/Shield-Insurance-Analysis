@@ -1,6 +1,6 @@
 # 🛡️ Shield Insurance Analytics Dashboard
 
-> A comprehensive Power BI analytics solution designed to track Insurance Performance, Revenue Performance, and Geographical Performance. The main focus of this dashboard was to design three important pages covering Executive View, Sales Mode Analysis, and Age Group Analysis.
+A comprehensive Power BI analytics solution designed to track Insurance Performance, Revenue Performance, and Geographical Performance. The main focus of this dashboard was to design three important pages covering Executive View, Sales Mode Analysis, and Age Group Analysis.
 
 ---
 
@@ -11,18 +11,6 @@ The Shield Insurance Dashboard is a data-driven Power BI project built to analys
 - **Insurance Performance** — policy sales, settlement risk, and customer segments
 - **Revenue Performance** — monthly trends, sales mode contribution, and growth patterns  
 - **Geographical Performance** — city revenue ranking and regional penetration gaps
-
----
-
-## 📊 Key Metrics
-
-| Metric | Value |
-|---|---|
-| Total Policies Sold | 27,000 |
-| Total Premium Paid | ₹989.25M |
-| Top Age Group | 31–40 (₹356.03M Revenue) |
-| Top Sales Channel | Offline Agent (55%) |
-| Analysis Period | Nov 2022 — Apr 2023 |
 
 ---
 
@@ -48,7 +36,6 @@ The Shield Insurance Dashboard is a data-driven Power BI project built to analys
 ---
 
 ## 🗂️ Data Model
-
 
 **Tables:**
 - `fact_premiums` — customer_code, date, final_premium_amt(INR), policy_id, sales_mode
@@ -92,13 +79,19 @@ DIVIDE(
     CALCULATE([Total Premium], PREVIOUSMONTH(dim_date[date]))
 )
 ```
+## 📊 Key Metrics
+
+| Total Policies Sold | 27,000 |
+| Total Premium Paid | ₹989.25M |
+| Top Age Group | 31–40 (₹356.03M Revenue) |
+| Top Sales Channel | Offline Agent (55%) |
+| Analysis Period | Nov 2022 — Apr 2023 |
 
 ---
-
 ## 💡 Key Insights
 
 **Revenue**
-- Revenue peaked at ₹263.84M in March 2023 — a 100% increase from Nov 2022
+- Revenue peaked at ₹263.84M in March 2023 — a 100% increase from Mar 2023
 - April 2023 softened to ₹153.75M — seasonal correction or churn signal
 
 **Customer & Sales Mode**
@@ -106,9 +99,9 @@ DIVIDE(
 - Broker channel delivers the highest ARPC at ₹37,420 — 38% above Online average
 
 **Age Group**
-- 31–40 is the #1 revenue engine at ₹311.1M
+- 31–40 is the #1 revenue engine at ₹356.03M
 - 18–24 is the highest long-term growth opportunity
-- 65+ carries ₹130.94M in settlements with only 9% revenue contribution
+- 65+ carries ₹184.89M in settlements with only 19% revenue contribution
 
 **Risk**
 - 65+ shows the most critical risk-to-revenue imbalance
@@ -116,9 +109,12 @@ DIVIDE(
 
 **Geography**
 - Top 5 cities drive majority of revenue — classic 80/20 concentration
-- Quebec shows 18% customers but only 13% revenue — prime upsell target
-
 ---
+## 🎬 Video Presentation
+> Click the thumbnail above to watch the full Shield Insurance 
+> Dashboard presentation and data story walkthrough.
+
+[![Shield Insurance Dashboard Walkthrough](https://www.youtube.com/watch?v=6IxeA9Ky8Wk&t=12s)]([https://www.youtube.com/watch?v=6IxeA9Ky8Wk&t=12s](https://www.youtube.com/watch?v=6IxeA9Ky8Wk&t=12s))
 
 ## 🛠️ Tools & Technologies
 
@@ -135,23 +131,12 @@ DIVIDE(
 ## 📁 Project Structure
 Shield-Insurance-Dashboard/
 
-│
+
 
 ├── 📊 ShieldInsurance.pbix        # Power BI file
 
-├── 📂 Data/
 
-│   ├── fact_premiums.csv
-
-│   ├── fact_settlements.csv
-
-│   ├── dim_Customer.csv
-
-│   ├── dim_policies.csv
-
-│   └── dim_date.csv
-
-├── 📂 Screenshots/
+├── 📂 img/
 
 │   ├── home_page.png
 
@@ -161,6 +146,8 @@ Shield-Insurance-Dashboard/
 
 │   └── age_group_analysis.png
 
+│   └── data model.png
+
 └── 📄 README.md
 
 ---
@@ -168,27 +155,27 @@ Shield-Insurance-Dashboard/
 ## 📸 Dashboard Preview
 
 ### Executives Analysis
-![Age Group Dashboard](Screenshots/age_group_analysis.png)
+High-level KPI summary for leadership — total revenue, customer count, top performing age group, and monthly growth trend at a glance.
+![Age Group Dashboard]([Screenshots/age_group_analysis.png](https://github.com/Revathi-jaisankar/Shield-Insurance-Analysis/blob/main/img/Executive_page.png))
 
 ### Age Group Analysis
-![Age Group Dashboard](Screenshots/age_group_analysis.png)
+Customer and revenue breakdown by age — 31 to 40 is the top revenue engine, 65+ carries the highest settlement risk, and 18 to 24 is the biggest long-term growth opportunity.
+![Age Group Dashboard]([Screenshots/age_group_analysis.png](https://github.com/Revathi-jaisankar/Shield-Insurance-Analysis/blob/main/img/Age_group_Analysis_Page.png))
 
 ### Sales Mode Analysis
-![Sales Mode Dashboard](Screenshots/sales_mode_analysis.png)
+Deep dive into how customers are buying — Offline Agent leads at 55% of customers and dominates revenue, while Online channels are growing in volume.
+![Sales Mode Dashboard]([Screenshots/sales_mode_analysis.png](https://github.com/Revathi-jaisankar/Shield-Insurance-Analysis/blob/main/img/Sales_Mode_Analysis_Page.png))
 
 ---
 
+# Revathi Ganesan  
+### Data Analyst Intern | Power BI | SQL | Excel  
 
+📊 I specialize in creating insightful dashboards and data-driven solutions  
+🌍 Based in UAE  
+🎯 Focused on business intelligence and analytics  
 
----
-
-## 👤 Author
-
-**Your Name**  
-Data Analyst  
-[LinkedIn](https://linkedin.com/in/yourprofile) · [GitHub](https://github.com/yourusername)
-
----
+🔗 [LinkedIn](https://www.linkedin.com/in/revathi-ganesan-576a37121/) · [GitHub](https://github.com/Revathi-jaisankar)
 
 ## 📄 License
 
