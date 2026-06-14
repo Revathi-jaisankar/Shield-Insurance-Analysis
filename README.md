@@ -115,7 +115,7 @@ DIVIDE(
 > Click the thumbnail above to watch the full Shield Insurance 
 > Dashboard presentation and data story walkthrough.
 
-[![Shield Insurance Dashboard Walkthrough](https://www.youtube.com/watch?v=6IxeA9Ky8Wk&t=12s)]
+[![Shield Insurance Dashboard Walkthrough](https://img.youtube.com/vi/6IxeA9Ky8Wk/0.jpg)](https://www.youtube.com/watch?v=6IxeA9Ky8Wk&t=12s
 
 ## 🛠️ Tools & Technologies
 
